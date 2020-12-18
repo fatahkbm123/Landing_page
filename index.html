@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>FullStack Web Dev - Belajar Koding</title>
+  </head>
+  <body>
+    <nav>
+      <div class="heading">
+        <h1>My App</h1>
+      </div>
+
+      <ul>
+        <li><a href="#home" class="scroll">Home</a></li>
+        <li><a href="#tentang_kami" class="scroll">Tentang Kami</a></li>
+        <li><a href="#kontak_kami" class="scroll">Kontak Kami</a></li>
+      </ul>
+
+      <span style="font-size: 1.8rem">
+        <i class="fas fa-bars icons"></i>
+      </span>
+    </nav>
+
+    <div class="nav-responsive">
+      <ul>
+        <li><a href="#home" class="scroll2">Home</a></li>
+        <li><a href="#tentang_kami" class="scroll2">Tentang Kami</a></li>
+        <li><a href="#kontak_kami" class="scroll2">Kontak Kami</a></li>
+      </ul>
+    </div>
+
+    <div class="container-home" id="home">
+      <h1>Welcome to My App</h1>
+    </div>
+
+    <div class="container-about" id="tentang_kami">
+      <div class="about">
+        <h1>Tentang Kami</h1>
+        <hr />
+        <p>
+          Kami adalah tempat belajar koding dalam bahasa Indonesia. <br />
+          Tutorialnya step by step sehingga sangat mudah diikuti untuk siapa
+          saja bahkan tanpa <br />
+          latar belakang pendidikan IT.
+        </p>
+      </div>
+    </div>
+
+    <div class="container-kontak" id="kontak_kami">
+      <div class="kontak">
+        <h1 style="text-align: center">Kontak Kami</h1>
+        <hr />
+        <p>Hubungi kami pada form kontak di bawah ini</p>
+
+        <form autocomplete="off">
+          <div class="form-group">
+            <label for="nama" style="margin-top: 10px">Nama</label>
+            <input type="text" id="nama" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" id="email" />
+          </div>
+          <div class="form-group">
+            <label for="pesan">Pesan</label>
+            <textarea id="pesan" cols="30" rows="10"></textarea>
+          </div>
+          <div class="form-button">
+            <button>Hapus</button>
+            <button>Kirim</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <p>Copyright © Koding Indonesia</p>
+    </footer>
+    <!-- Icon Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/c1e0683269.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
